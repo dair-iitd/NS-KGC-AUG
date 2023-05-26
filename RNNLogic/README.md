@@ -1,6 +1,6 @@
-# Augmentations on RNNLogic
+# Augmentations on RNNLogic+
 
-In this folder, we provide the baseline code and rule sets for our experiments with RNNLogic+. The original and augmented rule sets can be found in the respective dataset directories inside the `data` folder.
+In this folder, we provide the baseline code and rule sets for our experiments with RNNLogic+. The `data` folder containing the rulesets, datasets and RotatE checkpoints used in our experiments can be downloaded from Google Drive: [Link](https://drive.google.com/file/d/11IyXV0lpWi8z_jVPaxNsAdGX_2FkdTGd/view?usp=share_link). The original and augmented rule sets can be found in the respective dataset directories inside the `data` folder.
 
 Most of the code is taken from the code repository of the following paper:
 Meng Qu, Junkun Chen, Louis-Pascal Xhonneux, Yoshua Bengio, Jian Tang, "RNNLogic: Learning Logic Rules for Reasoning on Knowledge Graphs", ICLR 2021.
