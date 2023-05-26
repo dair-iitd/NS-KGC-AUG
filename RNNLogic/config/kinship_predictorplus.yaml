@@ -1,0 +1,30 @@
+gpus: [0]
+save_path: saved_kinship
+load_path: null
+seed: 1
+num_iters: 1
+
+data:
+  data_path: ../data/kinship
+  rule_file: ../data/kinship/kinship_rules_invabd_filteraug.txt
+  batch_size: 16
+
+predictor:
+  model:
+    type: emb
+    num_layers: 3
+    hidden_dim: 16
+    entity_feature: RotatE
+    aggregator: pna
+    embedding_path: ../data/kinship/RotatE_2000
+    rel_weight: 0.5
+  optimizer:
+    lr: 0.005
+    weight_decay: 0
+  train:
+    smoothing: 0.2
+    batch_per_epoch: 1000000
+    print_every: 1
+  eval:
+    expectation: True
+    

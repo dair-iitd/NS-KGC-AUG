@@ -1,0 +1,30 @@
+gpus: [0]
+save_path: saved_wn18rr
+load_path: null
+seed: 1
+num_iters: 1
+
+data:
+  data_path: ../data/wn18rr
+  rule_file: ../data/wn18rr/wn18rr_rules_filteraug.txt
+  batch_size: 8
+
+predictor:
+  model:
+    type: emb
+    num_layers: 3
+    hidden_dim: 16
+    entity_feature: RotatE
+    aggregator: pna
+    embedding_path: ../data/wn18rr/RotatE_200
+    rel_weight: 0.01
+  optimizer:
+    lr: 0.005
+    weight_decay: 0
+  train:
+    smoothing: 0.2
+    batch_per_epoch: 1000000
+    print_every: 1
+  eval:
+    expectation: True
+    
