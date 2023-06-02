@@ -5,7 +5,7 @@ In this folder, we provide the baseline code and rule sets for our experiments w
 The code present here is a modification of the  taken from the code repository of the following paper:
 Yuyu Zhang, Xinshi Chen, Yuan Yang, Arun Ramamurthy, Bo Li, Yuan Qi, Le Song, "Efficient Probabilistic Logic Reasoning with Graph Neural Networks", ICLR 2020.
 This code is available at:
-https://https://github.com/expressGNN/ExpressGNN
+https://github.com/expressGNN/ExpressGNN
 
 ## Running Training
 The following command is an example of running ExpressGNN on any DATASET on GPU without augmentation:
