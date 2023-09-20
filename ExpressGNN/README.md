@@ -2,7 +2,7 @@
 
 In this folder, we provide the baseline code and rule sets for our experiments with ExpressGNN. The original and augmented rule sets can be found in the respective dataset directories inside the `data` folder. The original rules for each dataset have been obtained by selecting the top 5-10 rules per relation (in the rule head) based on PCA score from the RNNLogic rules for that dataset. The original rules are in files of the form expressgnn_rules_DATASET.txt and augmented rules are present in files with the name expressgnn_rules_aug.txt.
 
-The code present here is a modification of the  taken from the code repository of the following paper:
+The code present here is a modification of the code repository of the following paper:
 Yuyu Zhang, Xinshi Chen, Yuan Yang, Arun Ramamurthy, Bo Li, Yuan Qi, Le Song, "Efficient Probabilistic Logic Reasoning with Graph Neural Networks", ICLR 2020.
 This code is available at:
 https://github.com/expressGNN/ExpressGNN
